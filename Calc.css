@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	padding-top: 20vh;
+	background: #898989;
+}
+h1 {
+	color: white;
+	text-transform: capitalize;
+}
+#frame {
+	max-width: 350px;
+	padding: 0;
+	margin: 0 auto;
+	background: #454545;
+	border: solid 20px #121212;
+}
+input {
+	margin: 40px auto 0 auto;
+	height: 50px;
+	width: 90%;
+	font-weight: 800;
+	font-size: 15px;
+	padding: 0;
+	text-align: center;
+	border: solid 3px black;
+	color: white;
+	background: black;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	display: inline-block;
+}
+button {
+	color: white;
+	background: black;
+	padding: 0;
+	border: 0;
+	margin: 5px 15px;
+	height: 37px;
+	width: 37px;
+	font-weight: 800;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+button:hover {
+	color: black;
+	background: white;
+}
